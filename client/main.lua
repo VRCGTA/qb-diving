@@ -27,9 +27,11 @@ local function callCops()
     local ped = PlayerPedId()
     local coords = GetEntityCoords(ped)
     if call == chance then
-        TriggerServerEvent('qb-diving:server:CallCops', coords)
+        return
+        -- TriggerServerEvent('qb-diving:server:CallCops', coords)
     end
 end
+
 local function deleteGear()
 	if currentGear.mask ~= 0 then
         DetachEntity(currentGear.mask, 0, 1)

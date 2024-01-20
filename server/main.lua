@@ -30,6 +30,7 @@ end
 -- Events
 
 RegisterNetEvent('qb-diving:server:CallCops', function(coords)
+    return
     for _, Player in pairs(QBCore.Functions.GetQBPlayers()) do
         if Player then
             if Player.PlayerData.job.type == "leo" and Player.PlayerData.job.onduty then
