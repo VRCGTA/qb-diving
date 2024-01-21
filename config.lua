@@ -254,12 +254,12 @@ Config.CoralTypes = {
     [1] = {
         item = "dendrogyra_coral",
         maxAmount = math.random(1, 5),
-        price = math.random(70, 100),
+        price = math.random(1000, 2000),
     },
     [2] = {
         item = "antipatharia_coral",
         maxAmount = math.random(2, 7),
-        price = math.random(50, 70),
+        price = math.random(800, 1600),
     }
 }
 
